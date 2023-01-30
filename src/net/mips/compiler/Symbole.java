@@ -3,7 +3,14 @@ package net.mips.compiler;
 public class Symbole {
 	Tokens token;
 	private String nom;
+	ClasseIdf classe;
 	
+	public ClasseIdf getClasse() {
+		return classe;
+	}
+	public void setClasse(ClasseIdf classe) {
+		this.classe = classe;
+	}
 	public Tokens getToken() {
 		return token;
 	}
